@@ -36,7 +36,7 @@
     <springProfile name="dev">
         <logger name="com.talelife.user" level="DEBUG"/>
         <logger name="org.springframework" level="INFO"/>
-        <logger name="org.mybatis" level="INFO"/>
+        <logger name="org.mybatis" level="DEBUG"/>
         <!-- 根配置，下级默认继承这个配置 -->
         <root level="INFO">
 	        <appender-ref ref="CONSOLE" />
